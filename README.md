@@ -1,3 +1,3 @@
 # j_gomez
 
-I love burgers
+I love burgers.
