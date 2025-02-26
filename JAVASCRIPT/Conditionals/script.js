@@ -1,0 +1,8 @@
+let age = 18 ;
+if (age = 18) {
+    console.log("You are an adult")
+} else if (age === 18) {
+    console.log("Happy Birthday")
+} else {
+    console.log("You are a minor")
+}

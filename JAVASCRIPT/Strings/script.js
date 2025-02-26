@@ -21,16 +21,28 @@
 // // toUpperCase(), toLowerCase()
 // console.log(person.lName.toLocaleLowerCase());
 
-let lName = "gomez"
-console.log(lName.includes("z"));
-console.log(lName.includes("Z"));
+// let lName = "gomez"
+// console.log(lName.includes("z"));
+// console.log(lName.includes("Z"));
+//
+// //length
+// console.log("How many characters in lName: ", lName.length);
+//
+// //slice
+// let newVar;
+// newVAr = lName.slice(1,2)
+// console.log(newVar);
+// ["g", "o", "m", "e", "z"]
+// [3, 5, 7, 9, 10]
 
-//length
-console.log("How many characters in lName: ", lName.length);
+//concatenate
+let age = 25
+let sentence = "I love " + 'chocolate'
+console.log(sentence);
+let sentence1 = sentence + " and other stuff"
+console.log(sentence1);
+//template literals
+let sentence2 = `${age > 21 ? "yeah!" : "Boooo"} and other stuff!`
+console.log(sentence2);
 
-//slice
-let newVar;
-newVAr = lName.slice(1,2)
-console.log(newVar);
-["g", "o", "m", "e", "z"]
-[3, 5, 7, 9, 10]
+console.log("Simple test: ", sentence2)
