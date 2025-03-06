@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Now Hiring</title>
+    <link rel="icon" type="image/x-icon" href="../images/dolphinfavicon.ico">
+
+
+</head>
+
+<body>
+
+<br>
+<a href="index.html"
+   target="_blank"
+>
+    Home
+</a>
+<a href="menu.html"
+   target="_blank">
+    Menu
+</a>
+<a href="#"
+   target="_blank"
+>
+    Now Hiring
+</a>
+<br>
+<br>
+
+<form action="/sendTheData"
+      method="get"
+>
+
+    <br>
+    <label>
+        First Name:
+        <input type="text"
+               name="fname"
+               id=""
+               placeholder="Enter your first name"
+               required
+               min="1"
+               max="20"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Last Name:
+        <input type="text"
+               name="lname"
+               id=""
+               placeholder="Enter your last name"
+               min="1"
+               max="20"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Address:
+        <input type="text"
+               name="address"
+               id=""
+               placeholder="Enter your address"
+               required
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Address 2:
+        <input type="text"
+               name="address2"
+               id=""
+               placeholder="Optional, if needed"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        City:
+        <input type="text"
+               name="city"
+               id=""
+               placeholder="Enter your city"
+               max="30"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        State
+        <select name="state"
+                id=""
+        >
+            <option value="">
+                CA
+            </option>
+            <option value="">
+                TX
+            </option>
+            <option value="">
+                AZ
+            </option>
+        </select>
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Age:
+        <input type="number"
+               name="age"
+               id=""
+               min="21"
+               max="99"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Phone:
+        <input type="tel"
+               name="phone"
+               id=""
+               placeholder="xxx-xxx-xxxx"
+               title="patterm xxx-xxx-xxxx"
+               pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
+               required
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Email:
+        <input type="email"
+               name="email_address"
+               id=""
+               placeholder="Enter email"
+               pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Password:
+        <input type="password"
+               name="pw"
+               id=""
+               min="8"
+               max="12"
+               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}"
+               title="must contain one upper and lower case, one special symbol, one number"
+               required
+        >
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Married:
+        <input type="radio"
+               name="isMarried"
+               id=""
+               value="Yes"
+        > Yes
+        <input type="radio"
+               name="isMarried"
+               id=""
+               value="No"
+               checked
+        > No
+        <input type="radio"
+               name="isMarried"
+               id=""
+               value="Cheated on"
+        > Cheated on
+    </label>
+    <br>
+    <br>
+
+    <label>
+        Favorite Colors:
+        <input type="checkbox"
+               name="color1"
+               id=""
+               value="Red"
+        > Red
+        <input type="checkbox"
+               name="color2"
+               id=""
+               value="Orange"
+        > Orange
+        <input type="checkbox"
+               name="color3"
+               id=""
+               value="Yellow"
+        > Yellow
+        <input type="checkbox"
+               name="color4"
+               id=""
+               value="Green"
+        > Green
+        <input type="checkbox"
+               name="color5"
+               id=""
+               value="Blue"
+        > Blue
+    </label>
+    <br>
+    <br>
+
+    <label>
+        More Info:
+        <br>
+        <textarea rows="4"
+                  maxlength="30"
+                  title="Max 30 characters."
+        >
+
+        </textarea>
+    </label>
+    <br>
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+
+</html>
