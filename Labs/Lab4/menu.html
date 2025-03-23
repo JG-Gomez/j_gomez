@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <!--favicon image-->
+    <link rel="icon" type="image/x-icon" href="../images/dolphinfavicon.ico">
+    <!--css ref-->
+    <link rel="stylesheet" href="styles.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img class="navimg" src="../images/dolphinfavicon.ico"
+                 alt="Bootstrap"
+                 width="36"
+                 height="30"></a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                <a class="nav-link" href="now-hiring.html">Now Hiring</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<h1 class="page-title">Menu</h1>
+
+<div>
+    <div class="menu-holder">
+        <img id="menuItems"
+             src="../images/garlic-butter-chicken.jpg"
+             alt="first-menu-item">
+        <div class="menu-text">
+            <p id="menuTitle" class="item-GBC">Garlic Butter Chicken</p>
+            <p id="menuDesc" class="GBC-desc">Seared chicken breasts or thighs topped with a garlic butter base.</p>
+            <p id="menuPrice" class="GBC-price">$15.99 </p>
+        </div>
+    </div>
+</div>
+
+<div class="buttons">
+    <button class="btn btn-primary btn-lg" onclick="prevImage()">Previous</button>
+    <button class="btn btn-primary btn-lg" onclick="nextImage()">Next</button>
+</div>
+
+<!--bootstrap-->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--js-->
+<script src="script.js"></script>
+</body>
+
+</html>
